@@ -40,7 +40,7 @@ const Home = () => {
     
     setTimeout(() => {
       setSecondCircleColored(true);
-    }, 1700); // 1 second delay
+    }, 400); // 1 second delay
 
     setTimeout(() => {
       setThirdCircleColored(true);
@@ -48,8 +48,8 @@ const Home = () => {
       setTimeout(() => {
         setAllGreen(true);
         setGreenVisibleTime(new Date().getTime()); // Record the time when green color becomes visible
-      }, 1000); // 1 second delay after third circle turns red
-    }, 3400); // 2 seconds delay
+      }, 1100); // 1 second delay after third circle turns red
+    }, 2800); // 2 seconds delay
   };
 
   useEffect(() => {
