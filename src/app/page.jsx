@@ -29,7 +29,7 @@ const Home = () => {
     if (allGreen) {
       const currentTime = new Date().getTime();
       if (greenVisibleTime) {
-        const diff = (currentTime - greenVisibleTime) / 1000; // Convert milliseconds to seconds
+        const diff = (currentTime - greenVisibleTime - 0.05) / 1000; // Convert milliseconds to seconds
         setTimeDifference(diff);
         console.log(`Time difference: ${diff.toFixed(4)} seconds`);
       }
