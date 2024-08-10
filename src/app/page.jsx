@@ -54,7 +54,7 @@ const Home = () => {
 
   useEffect(() => {
     const handleKeyDown = (event) => {
-      if (event.code === 'Space') {
+      if (event.code === 'Enter') {
         event.preventDefault(); // Prevent default space bar behavior (scrolling)
         if (buttonRef.current) {
           buttonRef.current.click(); // Programmatically click the button
@@ -76,7 +76,7 @@ const Home = () => {
         <img className="logo" src="/images/logo.png" alt="logo" />
       </div>
       {timeDifference !== null && (
-        <div className="time">Reaction time: {timeDifference.toFixed(4)} seconds</div>
+        <div className="time"><span className="text">Reaction time:</span> <span className="time-sec">{timeDifference.toFixed(4)} </span> seconds</div>
       )}
       <div className="signal">
         <div className="holder-pos">

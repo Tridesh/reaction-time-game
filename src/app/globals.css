@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(135deg, black,  red);
+  background-image: url("/images/bg2.jpg");
+  background-size: 17.5px 6px;
   height: 100vh;
   overflow-y: hidden;
   margin: 0vw;
@@ -20,8 +21,8 @@ body {
 }
 .holder {
   height: 1vh;
-  width: 75vw;
-  background-color: rgb(60, 15, 15);
+  width: 90vw;
+  background-color: rgb(0, 0, 0);
   border: white .001px solid;
   border-radius: 5px;
 }
@@ -34,7 +35,7 @@ body {
 .box-holder {
   width: 2vw;
   height: 5vh;
-  background-color: rgb(46, 11, 11);
+  background-color: rgb(0, 0, 0);
 }
 .signal-box {
   display: flex;
@@ -44,9 +45,9 @@ body {
   margin-top: 0vh;
 }
 .box {
-  width: 10vw;
+  width: 8vw;
   height: 50vh;
-  background-color: rgb(46, 11, 11);
+  background-color: rgb(0, 0, 0);
   border-radius: 2vw;
   position: relative;
   top: -33vh;
@@ -55,7 +56,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 3vw;
+  gap: 2.5vw;
 
 }
 
@@ -83,7 +84,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 3vw;
+  gap: 2.5vw;
 
 }
 .second-circle {
@@ -110,7 +111,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  gap: 3vw;
+  gap: 2.5vw;
 }
 .third-circle {
   height: 10vh;
@@ -348,4 +349,15 @@ body {
   text-align: center;
   align-items: center;
   color: white;
+  margin-top: -8vh;
+  margin-bottom: 3vh;
+}
+.text {
+  color: white;
+  font-size: 25px;
+}
+.time-sec {
+  font-size: 30px;
+  color: red ;
+  /* margin-top: -10vh; */
 }
