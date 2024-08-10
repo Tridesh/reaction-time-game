@@ -87,8 +87,10 @@ const Home = () => {
           <div className="box-holder"></div>
           <div className="box-holder"></div>
           <div className="box-holder"></div>
+          <div className="box-holder"></div>
         </div>
         <div className="first-signal-stack">
+          <div className={allGreen ? "colored-all-green1" : (firstCircleColored ? "colored-first-circle" : "first-circle")}></div>
           <div className={allGreen ? "colored-all-green1" : (firstCircleColored ? "colored-first-circle" : "first-circle")}></div>
           <div className={allGreen ? "colored-all-green1" : (firstCircleColored ? "colored-first-circle" : "first-circle")}></div>
           <div className={allGreen ? "colored-all-green1" : (firstCircleColored ? "colored-first-circle" : "first-circle")}></div>
@@ -111,6 +113,7 @@ const Home = () => {
           <div className={allGreen ? "colored-all-green2" : (secondCircleColored ? "colored-second-circle" : "second-circle")}></div>
           <div className={allGreen ? "colored-all-green2" : (secondCircleColored ? "colored-second-circle" : "second-circle")}></div>
           <div className={allGreen ? "colored-all-green2" : (secondCircleColored ? "colored-second-circle" : "second-circle")}></div>
+          <div className={allGreen ? "colored-all-green2" : (secondCircleColored ? "colored-second-circle" : "second-circle")}></div>
         </div>
         {/* <div className="right-bottom-prop">
           <div className="right-bottom" id="rightb1"></div>
@@ -129,8 +132,10 @@ const Home = () => {
           <div className={allGreen ? "colored-all-green" : (thirdCircleColored ? "colored-third-circle" : "third-circle")}></div>
           <div className={allGreen ? "colored-all-green" : (thirdCircleColored ? "colored-third-circle" : "third-circle")}></div>
           <div className={allGreen ? "colored-all-green" : (thirdCircleColored ? "colored-third-circle" : "third-circle")}></div>
+          <div className={allGreen ? "colored-all-green" : (thirdCircleColored ? "colored-third-circle" : "third-circle")}></div>
         </div>
         <div className="signal-box">
+          <div className="box"></div>
           <div className="box"></div>
           <div className="box"></div>
           <div className="box"></div>
