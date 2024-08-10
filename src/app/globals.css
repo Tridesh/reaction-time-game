@@ -49,7 +49,7 @@ body {
   background-color: rgb(46, 11, 11);
   border-radius: 2vw;
   position: relative;
-  top: -82vh;
+  top: -33vh;
 }
 .first-signal-stack {
   display: flex;
@@ -64,7 +64,7 @@ body {
   width: 5vw;
   background-color: transparent;
   position: relative;
-  top: 3vh;
+  top: 1vh;
   z-index: 4;
   border-radius: 60px;
   border: white 1px solid;
@@ -74,7 +74,7 @@ body {
   width: 5vw;
   background-color: red;
   position: relative;
-  top: 3vh;
+  top: 1vh;
   z-index: 4;
   border-radius: 60px;
   border: white 1px solid;
@@ -91,7 +91,7 @@ body {
   width: 5vw;
   background-color: transparent;
   position: relative;
-  top: -2vh;
+  top: 6vh;
   z-index: 4;
   border-radius: 60px;
   border: white 1px solid;
@@ -101,7 +101,7 @@ body {
   width: 5vw;
   background-color: red;
   position: relative;
-  top: -2vh;
+  top: 6vh;
   z-index: 4;
   border-radius: 60px;
   border: white 1px solid;
@@ -117,7 +117,7 @@ body {
   width: 5vw;
   background-color: transparent;
   position: relative;
-  top: -37vh;
+  top: 10vh;
   z-index: 4;
   border-radius: 60px;
   border: white 1px solid;
@@ -127,7 +127,7 @@ body {
   width: 5vw;
   background-color: red;
   position: relative;
-  top: -37vh;
+  top: 10vh;
   z-index: 4;
   border-radius: 60px;
   border: white 1px solid;
@@ -304,7 +304,7 @@ body {
 }
 .start-button-class {
   position: relative;
-  top: -80vh;
+  top: -30vh;
   width: 200px;
   height: 40px;
   color: black;
@@ -313,33 +313,33 @@ body {
   height: 10vh;
   width: 5vw;
   position: relative;
-  top: -37vh;
+  top: -17vh;
   z-index: 4;
   border-radius: 60px;
   border: white 1px solid;
-  background-color: green;
+  background-color: black;
   z-index: 4;
 }
 .colored-all-green2 {
   height: 10vh;
   width: 5vw;
   position: relative;
-  top: -0vh;
+  top: 20vh;
   z-index: 4;
   border-radius: 60px;
   border: white 1px solid;
-  background-color: green;
+  background-color: black;
   z-index: 4;
 }
 .colored-all-green1 {
   height: 10vh;
   width: 5vw;
   position: relative;
-  top: 5vh;
+  top: 17vh;
   z-index: 4;
   border-radius: 60px;
   border: white 1px solid;
-  background-color: green;
+  background-color: black;
   z-index: 4;
 }
 .time {

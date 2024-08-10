@@ -94,25 +94,25 @@ const Home = () => {
           <div className={allGreen ? "colored-all-green1" : (firstCircleColored ? "colored-first-circle" : "first-circle")}></div>
           <div className={allGreen ? "colored-all-green1" : (firstCircleColored ? "colored-first-circle" : "first-circle")}></div>
         </div>
-        <div className="right-top-prop">
+        {/* <div className="right-top-prop">
           <div className="right-top" id="right1"></div>
           <div className="right-top" id="right2"></div>
           <div className="right-top" id="right3"></div>
           <div className="right-top" id="right4"></div>
-        </div>
-        <div className="left-top-prop">
+        </div> */}
+        {/* <div className="left-top-prop">
           <div className="left-top" id="left1"></div>
           <div className="left-top" id="left2"></div>
           <div className="left-top" id="left3"></div>
           <div className="left-top" id="left4"></div>
-        </div>
+        </div> */}
         <div className="second-signal-stack">
           <div className={allGreen ? "colored-all-green2" : (secondCircleColored ? "colored-second-circle" : "second-circle")}></div>
           <div className={allGreen ? "colored-all-green2" : (secondCircleColored ? "colored-second-circle" : "second-circle")}></div>
           <div className={allGreen ? "colored-all-green2" : (secondCircleColored ? "colored-second-circle" : "second-circle")}></div>
           <div className={allGreen ? "colored-all-green2" : (secondCircleColored ? "colored-second-circle" : "second-circle")}></div>
         </div>
-        <div className="right-bottom-prop">
+        {/* <div className="right-bottom-prop">
           <div className="right-bottom" id="rightb1"></div>
           <div className="right-bottom" id="rightb2"></div>
           <div className="right-bottom" id="rightb3"></div>
@@ -123,7 +123,7 @@ const Home = () => {
           <div className="left-bottom" id="leftb2"></div>
           <div className="left-bottom" id="leftb3"></div>
           <div className="left-bottom" id="leftb4"></div>
-        </div>
+        </div> */}
         <div className="third-signal-stack">
           <div className={allGreen ? "colored-all-green" : (thirdCircleColored ? "colored-third-circle" : "third-circle")}></div>
           <div className={allGreen ? "colored-all-green" : (thirdCircleColored ? "colored-third-circle" : "third-circle")}></div>
